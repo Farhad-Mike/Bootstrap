@@ -1,0 +1,89 @@
+.container class provides a responsive fixed width container
+.container-fluid class provides a full width container
+.container-sm
+.container-md
+.container-lg
+.container-xl
+
+.col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+
+.pt-3 padding-top
+.pr-3 padding-right
+.pb-3 padding-bottom
+.pl-3 padding-left
+.p-3 padding
+
+.mt-3 margin-top
+.mr-3 margin-right
+.mb-3 margin-bottom
+.ml-3 margin-left
+.m-3 margin
+
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+
+.display-1 The largest value
+.display-2
+.display-3
+.display-4
+
+<small> Маленький текст относительно своего родителя
+
+<mark> element(text) with a yellow background color and some padding
+
+<abbr> element with a dotted border bottom
+
+.blockquote class to a <blockquote> when quoting blocks of content from another source
+.blockquote-footer class to a <footer> when quoting blocks of content from another source
+
+<dl> The dl element indicates a description list
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+</dl> 
+
+<code> defines a section in a document
+
+<kbd> to open the Print dialog box
+
+.font-weight-bold 	    Bold text 	
+.font-weight-bolder 	Bolder text 	
+.font-italic 	        Italic text 	
+.font-weight-light 	    Light weight text 	
+.font-weight-lighter 	Lighter weight text 	
+.font-weight-normal 	Normal text
+
+.lead 	                Makes a paragraph stand out 	
+.small 	                Indicates smaller text (set to 80% of the size of the parent) 	
+
+.text-left  	        Indicates left-aligned text 	
+.text-*-left 	        Indicates left-aligned text on small, medium, large or xlarge screens 	
+.text-break 	        Prevents long text from breaking layout 	
+.text-center 	        Indicates center-aligned text 	
+.text-*-center 	        Indicates center-aligned text on small, medium, large or xlarge screens 	
+.text-decoration-none 	Removes the underline from a link 	
+.text-right 	        Indicates right-aligned text 	
+.text-*-right 	        Indicates right-aligned text on small, medium, large or xlarge screens 	
+.text-justify 	        Indicates justified text 	
+.text-monospace 	    Monospaced text 	
+.text-nowrap 	        Indicates no wrap text 	
+.text-lowercase 	    Indicates lowercased text 	
+.text-reset 	        Resets the color of a text or a link (inherits the color from its parent) 	
+.text-uppercase 	    Indicates uppercased text 	
+.text-capitalize 	    Indicates capitalized text 	
+
+.initialism 	        Displays the text inside an <abbr> element in a slightly smaller font size 	
+
+.list-unstyled 	        Removes the default list-style and left margin on list items (works on both <ul> and <ol>). This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well) 	
+.list-inline 	        Places all list items on a single line (used together with .list-inline-item on each <li> elements) 	
+
+.pre-scrollable 	    Makes a <pre> element scrollable
