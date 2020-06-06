@@ -22,6 +22,8 @@
 .mb-3 margin-bottom
 .ml-3 margin-left
 .m-3 margin
+.mx-auto (margin:auto)
+.my-auto (margin:auto)
 
 <h1>
 <h2>
@@ -87,3 +89,94 @@
 .list-inline 	        Places all list items on a single line (used together with .list-inline-item on each <li> elements) 	
 
 .pre-scrollable 	    Makes a <pre> element scrollable
+
+
+
+.thead-dark         class adds a black background to table headers  <thead>
+.thead-light        class adds a grey background to table headers   <thead>
+.table-striped      class adds zebra-stripes to a table
+.table-bordered     class adds borders on all sides of the table and cells
+.table-borderless   class removes borders from the table
+.table-hover        class adds a hover effect (grey background color) on table rows
+.table-dark         class adds a black background to the table
+.table-sm           class makes the table smaller by cutting cell padding in half
+.table-responsive   class adds a scrollbar to the table when needed (when it is too big horizontally)
+.table-responsive-sm 	< 576px
+.table-responsive-md 	< 768px
+.table-responsive-lg 	< 992px
+.table-responsive-xl 	< 1200px
+!!! Можно объединять классы вместе нап: (.table-dark .table-striped)
+.table-primary 	    Blue: Indicates an important action
+.table-success 	    Green: Indicates a successful or positive action
+.table-danger 	    Red: Indicates a dangerous or potentially negative action
+.table-info 	    Light blue: Indicates a neutral informative change or action
+.table-warning 	    Orange: Indicates a warning that might need attention
+.table-active 	    Grey: Applies the hover color to the table row or table cell
+.table-secondary 	Grey: Indicates a slightly less important action
+.table-light 	    Light grey table or table row background
+.table-dark 	    Dark grey table or table row background
+
+
+.rounded            class adds rounded corners to an image
+.rounded-circle     class shapes the image to a circle
+.img-thumbnail      class shapes the image to a thumbnail (bordered)
+.img-fluid          responsive images
+.float-right
+.float-left
+
+
+.d-block            (display:block)
+
+
+.jumbotron          to create a jumbotron
+.jumbotron-fluid
+!!! If you want a full-width jumbotron without rounded borders, add the .jumbotron-fluid class and a .container or .container-fluid inside of it
+
+
+!!! Alerts are created with the .alert class, followed by one of the contextual classes
+.alert              create alert
+.alert-success
+.alert-info
+.alert-warning
+.alert-danger
+.alert-primary
+.alert-secondary
+.alert-light
+.alert-dark
+!.alert-dismissible create closed alert. Then add class="close" and data-dismiss="alert" to a link or a button element <button>&times;</button>
+    .fade and .show classes adds a fading effect when closing the alert message
+
+
+!!! Button are created with the .btn class, followed by one of the contextual classes
+.btn                create button
+.btn-primary
+.btn-secondary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-dark
+.btn-light
+.btn-link
+.btn-outline-primary
+.btn-outline-secondary
+.btn-outline-success
+.btn-outline-info
+.btn-outline-warning
+.btn-outline-danger
+.btn-outline-dark
+.btn-outline-light  button without border, only text. (Don't forget add .text-dark)
+.btn-lg             make button large
+.btn-sm             make button small
+.btn-block          to create a block level button that spans the entire width of the parent element
+.active             makes a button appear pressed
+.disabled           class to make it visually appear disabled
+!!! The button classes can be used on <a>, <button>, or <input> elements
+!!! You can also add "spinners" to a button
+
+!!! Button-group are created with the .btn-group or .btn-group-vertical classes, followed by one of the contextual classes
+.btn-group          to create a middle button group <div>
+.btn-group-vertical to create a vertical button group <div>
+.btn-group-lg       make buttons large  
+.btn-group-sm       make buttons small
+!!! Button groups are "inline" by default, which makes them appear side by side when you have multiple groups
