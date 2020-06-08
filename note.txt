@@ -22,6 +22,8 @@
 .mb-3 margin-bottom
 .ml-3 margin-left
 .m-3 margin
+.mx-auto (margin:auto)
+.my-auto (margin:auto)
 
 <h1>
 <h2>
@@ -111,3 +113,193 @@
 .bg-light               белый(каплю темный)
 
 .table
+
+
+.thead-dark         class adds a black background to table headers  <thead>
+.thead-light        class adds a grey background to table headers   <thead>
+.table-striped      class adds zebra-stripes to a table
+.table-bordered     class adds borders on all sides of the table and cells
+.table-borderless   class removes borders from the table
+.table-hover        class adds a hover effect (grey background color) on table rows
+.table-dark         class adds a black background to the table
+.table-sm           class makes the table smaller by cutting cell padding in half
+.table-responsive   class adds a scrollbar to the table when needed (when it is too big horizontally)
+.table-responsive-sm 	< 576px
+.table-responsive-md 	< 768px
+.table-responsive-lg 	< 992px
+.table-responsive-xl 	< 1200px
+!!! Можно объединять классы вместе нап: (.table-dark .table-striped)
+.table-primary 	    Blue: Indicates an important action
+.table-success 	    Green: Indicates a successful or positive action
+.table-danger 	    Red: Indicates a dangerous or potentially negative action
+.table-info 	    Light blue: Indicates a neutral informative change or action
+.table-warning 	    Orange: Indicates a warning that might need attention
+.table-active 	    Grey: Applies the hover color to the table row or table cell
+.table-secondary 	Grey: Indicates a slightly less important action
+.table-light 	    Light grey table or table row background
+.table-dark 	    Dark grey table or table row background
+
+
+.rounded            class adds rounded corners to an image
+.rounded-circle     class shapes the image to a circle
+.img-thumbnail      class shapes the image to a thumbnail (bordered)
+.img-fluid          responsive images
+.float-right
+.float-left
+
+
+.d-block            (display:block)
+
+
+.jumbotron          to create a jumbotron
+.jumbotron-fluid
+!!! If you want a full-width jumbotron without rounded borders, add the .jumbotron-fluid class and a .container or .container-fluid inside of it
+
+
+!!! Alerts are created with the .alert class, followed by one of the contextual classes
+.alert              create alert
+.alert-success
+.alert-info
+.alert-warning
+.alert-danger
+.alert-primary
+.alert-secondary
+.alert-light
+.alert-dark
+!.alert-dismissible create closed alert. Then add class="close" and data-dismiss="alert" to a link or a button element <button>&times;</button>
+    .fade and .show classes adds a fading effect when closing the alert message
+
+
+!!! Button are created with the .btn class, followed by one of the contextual classes
+.btn                create button
+.btn-primary
+.btn-secondary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-dark
+.btn-light
+.btn-link
+.btn-outline-primary
+.btn-outline-secondary
+.btn-outline-success
+.btn-outline-info
+.btn-outline-warning
+.btn-outline-danger
+.btn-outline-dark
+.btn-outline-light  button without border, only text. (Don't forget add .text-dark)
+.btn-lg             make button large
+.btn-sm             make button small
+.btn-block          to create a block level button that spans the entire width of the parent element
+.active             makes a button appear pressed
+.disabled           class to make it visually appear disabled
+!!! The button classes can be used on <a>, <button>, or <input> elements
+!!! You can also add "spinners" to a button
+
+!!! Button-group are created with the .btn-group or .btn-group-vertical classes, followed by one of the contextual classes
+.btn-group          to create a middle button group <div>
+.btn-group-vertical to create a vertical button group <div>
+.btn-group-lg       make buttons large  
+.btn-group-sm       make buttons small
+!!! Button groups are "inline" by default, which makes them appear side by side when you have multiple groups
+
+
+!!! Use the .badge class together with a contextual class within <span> elements to create rectangular badges. Note that badges scale to match the size of the parent element
+.badge              to create a badge <span>
+.badge-primary
+.badge-secondary
+.badge-success
+.badge-danger
+.badge-warning
+.badge-info
+.badge-light
+.badge-dark
+.badge-pill         class to make the badges more round
+
+
+!!! Add a .progress class to a container element and add the .progress-bar class to its child element. Use the CSS width property to set the width(%) of the progress bar. Add text inside the progress bar to show the visible percentage
+.progress           to create a parrent progress-bar (container)
+.progress-bar       to create a children progress-bar (self)
+.progress-bar-striped   make progress-bar striped 
+.progress-bar-animated  add to .progress-bar-striped for animate
+!!! Use the CSS height property to change a height of the progress bar
+!!! You can use a few .progress-bar (children) inside .progress (container). Progress bars will be stacked
+!!! For change color user .bg-*
+
+
+.spinner-border     create spinner (<div> or <span>)
+.spinner-grow       create spinner (<div> or <span>)
+.spinner-border-sm  make spinner small
+.spinner-grow-sm    make spinner small
+!!! For change color user .text-*
+
+
+!!! o create a basic pagination, add the .pagination class to an <ul> element. Then add the .page-item to each <li> element and a .page-link class to each link inside <li>
+.pagination         create paggination <ul>
+.pagination-lg      make paggination large <ul>
+.pagination-sm      make paggination small <ul>
+.page-item          <li class='page-item'><a class='page-link'></li>
+.page-link          <li class='page-item'><a class='page-link'></li>
+.active             <li>
+.disabled           <li>
+
+!!! The .breadcrumb and .breadcrumb-item classes indicates the current page's location within a navigational hierarchy
+.breadcrumb         <ul>
+.breadcrumb-item    <li>
+
+
+!!! To create a basic list group, use an <ul> element with class .list-group, and <li> elements with class .list-group-item
+.list-group         <ul> or <div>
+.list-group-item    <li> or <a>
+.active             <li> or <a>
+.disabled           <li> or <a>
+.list-group-flush           <ul> or <div>   class to remove some borders and rounded corners
+.list-group-horizontal      <ul> or <div> to display horizontally instead of vertically
+.list-group-item-success    <li> or <a> change color
+.list-group-item-secondary  <li> or <a> change color
+.list-group-item-info       <li> or <a> change color
+.list-group-item-warning    <li> or <a> change color
+.list-group-item-danger     <li> or <a> change color
+.list-group-item-primary    <li> or <a> change color
+.list-group-item-dark       <li> or <a> change color
+.list-group-item-light      <li> or <a> change color
+!!! To create a list group with linked items, use <div> instead of <ul> and <a> instead of <li>. Optionally, add the .list-group-item and .list-group-item-action class if you want a grey background color on hover
+.list-group-item-action     <a>
+
+
+!!! A basic card is created with the .card class, and content inside the card has a .card-header .card-body .card-footer classes
+.card-columns       <div> используй это если ты внутри хочешь объеденить по grid все .card
+.card-deck          <div> используется как и вышесказанное class creates a grid of cards that are of equal height and width. The layout will automatically adjust as you insert more cards.
+.card-group         <div> используется как и вышесказанное class is similar to .card-deck. The only difference is that the .card-group class removes left and right margins between each card
+.card               <div> create card
+.card-header        <div>
+.card-body          <div>
+.card-footer        <div>
+.card-title         <h4> user it inside .card-body
+.card-text          <p> user it inside .card-body
+.card-link          <a> user it inside .card-body
+.card-img-top       <img> show img on top
+.card-img-bottom    <img> show img on bottom
+.stretched-link     <a> class to link inside the card, and it will make the whole card clickable and hoverable (the card will act as a link)
+.card-img-overlay   <div> вместо .card-body используй это и внутри прописывай .card-text .card-link .card-title IMG заполнит весь задний фон карты
+!!! To add a background color the .card, use contextual classes (.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light)
+
+
+!!! The .dropdown class indicates a dropdown menu. To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and the data-toggle="dropdown" attribute. Add the .dropdown-menu class to a <div> element to actually build the dropdown menu. Then add the .dropdown-item class to each element (links or buttons) inside the dropdown menu.
+.dropdown           <div> create dropdown-menu (main parent) open menu down
+.dropup             <div> create dropdown-menu (main parent) open menu up
+.dropdown-toggle    <button>
+[dropdown]          <button data-toggle=''>
+.dropdown-menu      <div> parent of .dropdown-item
+.dropdown-item      <a>
+.dropdown-divider   <div> class is used to separate links inside the dropdown menu with a thin horizontal border. Should be empty (you can create a few)
+.dropdown-header    <div> class is used to add headers inside the dropdown menu (you can create a few)
+.active             <a>
+.disabled           <a>
+.dropright          <div class='dropdown'>
+.dropleft           <div class='dropdown'>
+.dropdown-menu-right    <div class='dropdown-menu'> open menu on right side. By default open on left side if button is big
+.dropdown-item-text     <a> or <span> class is used to add plain text to a dropdown, or used on links for default link styling
+.dropdown-toggle-split  <button> Нужно создать еще один рядом (без текстового узла внутри) элемент .dropdown-toggle для разделения кнопки-стрелки
+!!! Чтобы создать .btn-group с одной кнопкой на .dropdown то внутри .btn-group нужно создать еще один .btn-group (без .dropdown) в который нужно поместить остальные для .dropdown дочерние классы и элементы
