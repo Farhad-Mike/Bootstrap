@@ -280,3 +280,30 @@
 .dropdown-item-text     <a> or <span> class is used to add plain text to a dropdown, or used on links for default link styling
 .dropdown-toggle-split  <button> Нужно создать еще один рядом (без текстового узла внутри) элемент .dropdown-toggle для разделения кнопки-стрелки
 !!! Чтобы создать .btn-group с одной кнопкой на .dropdown то внутри .btn-group нужно создать еще один .btn-group (без .dropdown) в который нужно поместить остальные для .dropdown дочерние классы и элементы
+
+
+[collapse][#target]     <button data-toggle='' data-target=''> bind button to <div> for collapse. Можно использовать <a href='#target'>
+#target.collapse        <div> будет содержать контент для collapse
+.show                   <div> class to show the content by default
+[#parent]               <div data-parent=''> Если создать и указать обертку с id то при раскрытие одного контента будет скрываться другой. Для более красивого отображения используй .card
+
+
+!!! To create a simple horizontal menu, add the .nav class to a <ul> element, followed by .nav-item for each <li> and add the .nav-link class to their links
+.nav                <ul> create nav
+.nav-item           <li> 
+.nav-link           <a>
+.disabled           <a>
+.active             <a> only for tabs and pills
+.flex-columns       <ul> make the nav vertical
+.nav-tabs           <ul> make the nav look like tabs
+.nav-pills          <ul> make the nav look like pills
+.nav-justified      <ul> make the nav equal width
+[tab]#target-1      <a data-toggle='' href=''> сделать tabs переключаемыми
+[pill]#target-1     <a data-toggle='' href=''> сделать pills переключаемыми
+.tab-content        <div> контейнер внутри которого переключаемый контент
+.tab-pane.container#target  <div> child элемент для .tab-content внутри которого хранится сам контент. Каждый контент должен иметь индивидуальный id. Class .container add padding to content inside .tab-pane
+    .fade                   сделать переключение плавным     
+    .active                 активировать по умолчанию выбранный один контент
+!!! For create dropdown item inside nav just add the .dropdown configuration to <li> element
+
+
