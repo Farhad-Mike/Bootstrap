@@ -330,3 +330,33 @@
 !!! For create dropdown item inside nav just add the .dropdown configuration to <li> element
 
 
+.navbar             <nav> create navbar
+.navbar-expand-*    <nav> make navbar horizontal sm|md|lg|xl (remove the class will make navbar vertical)
+.fixed-top          <nav> class makes the navigation bar fixed at the top
+.fixed-bottom       <nav> class to make the navbar stay at the bottom of the page
+.sticky-top         <nav> class to make the navbar fixed/stay at the top of the page when you scroll past it.
+.navbar-nav         <ul> create nav
+.nav-item           <li>
+.nav-link           <a>
+.active             <a> work only with .navbar-dark and .navbar-light
+.disabled           <a>
+.navbar-light       <nav> make <a> color dark
+.navbar-dark        <nav> make <a> color white
+.navbar-brand       <a>  class is used to highlight the brand/logo/project name of your page (use inside <nav> but not in <ul>). will automatically style the image to fit the navbar vertically
+.navbar-toggler[collapse][#id]  <button data-toggler='' data-target=''> button for show or hide collapsed menu (use inside <nav>)
+    .navbar-toggler-icon        <span> 
+.collapse.navbar-collapse       <div> cover for <ul>, for collapse 
+.navbar-text class to vertical align any elements inside the navbar that are not links
+
+.form-inline                    <form>
+    .form-control               <input> if you have .input-group, then the element should be inside .input-group
+    .btn.btn-success            <button> if you want you can do not create the submit button
+.input-group                    <div> создает подсказку рядом с .form-inline
+    .input-group-prepend        <div> after input 
+    .input-group-append         <div> before input
+        .input-group-text       <span> show text inside the span, after/before the input
+
+.navbar-text class to vertical align any elements inside the navbar that are not links
+!!! you can change background color by use bg-* class
+!!! you can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
+!!! you can create dropdown menu inside <li>
