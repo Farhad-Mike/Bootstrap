@@ -90,6 +90,29 @@
 
 .pre-scrollable 	    Makes a <pre> element scrollable
 
+.text-muted             светло-серый
+.text-primary           светло-синий
+.text-success           светло-зеленый
+.text-info              aqua
+.text-warning           желтый
+.text-danger            светло-красный
+.text-secondary         светло-серый
+.text-dark              серый
+.text-body              черный
+.text-light             белый(каплю темный)
+.text-white             белый
+.text-body-50           на .5 прозрачный
+
+.bg-primary             светло-синий
+.bg-success             светло-зеленый
+.bg-info                aqua
+.bg-warning             желтый
+.bg-danger              светло-красный
+.bg-secondary           светло-серый
+.bg-dark                серый
+.bg-light               белый(каплю темный)
+
+.table
 
 
 .thead-dark         class adds a black background to table headers  <thead>
