@@ -1,29 +1,33 @@
-.container class provides a responsive fixed width container
-.container-fluid class provides a full width container
+.container          class provides a responsive fixed width container
+.container-fluid    class provides a full width container
 .container-sm
 .container-md
 .container-lg
 .container-xl
 
-.col- (extra small devices - screen width less than 576px)
-.col-sm- (small devices - screen width equal to or greater than 576px)
-.col-md- (medium devices - screen width equal to or greater than 768px)
-.col-lg- (large devices - screen width equal to or greater than 992px)
-.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+.col-       (extra small devices - screen width less than 576px)
+.col-sm-    (small devices - screen width equal to or greater than 576px)
+.col-md-    (medium devices - screen width equal to or greater than 768px)
+.col-lg-    (large devices - screen width equal to or greater than 992px)
+.col-xl-    (xlarge devices - screen width equal to or greater than 1200px)
 
-.pt-3 padding-top
-.pr-3 padding-right
-.pb-3 padding-bottom
-.pl-3 padding-left
-.p-3 padding
+.pt-3       padding-top
+.pr-3       padding-right
+.pb-3       padding-bottom
+.pl-3       padding-left
+.p-3        padding
 
-.mt-3 margin-top
-.mr-3 margin-right
-.mb-3 margin-bottom
-.ml-3 margin-left
-.m-3 margin
-.mx-auto (margin:auto)
-.my-auto (margin:auto)
+.mt-3       margin-top
+.mr-3       margin-right
+.mb-3       margin-bottom
+.ml-3       margin-left
+.m-3        margin
+.mx-auto    (margin:auto)
+.my-auto    (margin:auto)
+.mt-*-3     sm|md|lg|xl
+.mr-*-3     sm|md|lg|xl
+.mb-*-3     sm|md|lg|xl
+.ml-*-3     sm|md|lg|xl
 
 <h1>
 <h2>
@@ -360,3 +364,51 @@
 !!! you can change background color by use bg-* class
 !!! you can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
 !!! you can create dropdown menu inside <li>
+
+
+!!! .form-control use only for text element like <input> <textarea> <select>, it gives width 100%.
+!!! all elements should be inside <form>
+.form-group         <div> wrapper for every element. <button> do not need wrapper. Do not add this class if you use horizontal (inline) form. The class add margin-bottom
+.form-control       <input>, <textarea>, <select> medium size
+.form-control-sm    <input>, <textarea>, <select> small size
+.form-control-lg    <input>, <textarea>, <select> large size
+.form-control-plaintext if you want to style the input field as plain text. То есть рамок не будет у <input>, <textarea>, <select>
+.form-control-range <input type='range'>
+.form-control-file  <input type='file'>
+.form-check         <div> for <input type='checkbox'>. With .form-group add margin-botton
+    .form-check-label   <label>
+        .form-check-input   <input type='checkbox'>
+.form-check-inline  <div> for <input type='checkbox'>. Checkboxes and Radiobuttons will inline
+.form-inline        <form> make form inline (horizontal)
+.form-row           <div class='row'> if you use .row and .col for control width then you can use the class for make a less margins.
+.was-validated      <form> make check validation before submit
+.needs-validation   <form> make check validation after send
+    .valid-feedback <div> on green color text. Use it with JS for correct check info
+    .invalid-feedback   <div> on red color text. Use it with JS for correct check info
+!!! If make radiobutton or checkbox disabled just add 'disabled' attribute to <input>
+!!! Note: Inputs will NOT be fully styled if their type is not properly declared!
+
+
+.input-group        <div> Обертка для подсказки. Внутри должен быть <input>. Можно добавить несколько <input>
+    .input-group-prepend    <div> Подсказка до <input>
+    .input-group-append     <div> Подсказка после <input>
+        <button>            Можно добавить несколько <button> и даже button.dropdown
+        .input-group-text   <span>, <div> Текст подсказки. (Можно попробовать добавить рисунок). Можно добавить несколько подсказок. Внутри <div> можно добавить checkbox/radiobutton
+.input-group-sm     <div> make .input-group small
+.input-group-lg     <div> make .input-group large
+
+
+.custom-control     <div>   
+.custom-control-inline  <div> make .custom-control inline
+.custom-checkbox    <div> add the class to .custom-control for checkbox 
+.custom-switch      <div> add the class to .custom-control for toggle button 
+.custom-radio       <div> add the class to .custom-control for radiobutton 
+    .custom-control-input   <input>
+    .custom-control-label   <label>
+.custom-select      <select> do not use .custom-control
+.custom-select-sm   <select> make the element small
+.custom-select-lg   <select> make the element large
+.custom-range       <input type='range'> do not use .custom-control
+.custom-file
+    .custom-file-input      <input type='file'>
+    .custom-file-label      <label>
