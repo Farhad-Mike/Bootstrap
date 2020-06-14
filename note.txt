@@ -412,3 +412,57 @@
 .custom-file
     .custom-file-input      <input type='file'>
     .custom-file-label      <label>
+
+
+
+#id.carousel.slide[data-ride='carousel']
+    ul.carousel-indicators
+        li[data-target='#id' data-slide-to='$']     Add class .active for select indicator by default
+    .carousel-inner
+        .carousel-item                              Add class .active for select IMG by default
+            img                                     If you have problem with width, just add width:100%; style to IMGs
+            .carousel-caption                       (optional) Inside the element you can create <h3>, <p> and other element for use like description or title
+    a.carousel-control-prev[data-slide='prev' href='#id']   (optional)
+        span.carousel-control-prev-icon 
+    a.carousel-control-next[data-slide='next' href='#id']   (optional)
+        span.carousel-control-next-icon
+
+
+
+button.btn.btn-primary[data-toggle='modal' data-target='#id' type='button']>Open     Button for open modal window
+#id.modal.fade   Modal window
+    .modal-dialog 
+        .modal-content 
+            .modal-header 
+                h4.modal-title 
+                button.close[data-dismiss='modal' type='button']>&times;
+            .modal-body>everythingYouWant
+            .modal-footer 
+                button.btn.btn-danger[data-dismiss='modal' type='button']>Close
+
+.modal-lg   Make .modal-dialog content large
+.modal-sm   Make .modal-dialog content small
+.modal-xl   Make .modal-dialog content extra large
+.modal-dialog-centered  Make centered .modal-dialog
+.modal-dialog-scrollable    Make .modal-dialog scrollable inside modal window, will not create global scrollbar
+
+
+[data-toggle='tooltip' title='text']     Add tooltip to any element which you want. Also you need add a little jQuery code.
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+[data-placement='top']      Add this for change tooltip's place
+[data-placement='left']     Add this for change tooltip's place
+[data-placement='right']    Add this for change tooltip's place
+[data-placement='bottom']   Add this for change tooltip's place
+
+[data-toggle='popover' title='header' data-content='body'] Add popover to any element which you want. Also you need add a little jQuery code.
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+[data-placement='top']      Add this for change popover's place
+[data-placement='left']     Add this for change popover's place
+[data-placement='right']    Add this for change popover's place
+[data-placement='bottom']   Add this for change popover's place
+[data-trigger="focus"]      By default, the popover is closed when you click on the element again. However, you can use the attribute which will close the popover when clicking outside the element
+[data-trigger="hover"]      If you want the popover to be displayed when you move the mouse pointer over the element
