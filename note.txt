@@ -466,3 +466,53 @@ button.btn.btn-primary[data-toggle='modal' data-target='#id' type='button']>Open
 [data-placement='bottom']   Add this for change popover's place
 [data-trigger="focus"]      By default, the popover is closed when you click on the element again. However, you can use the attribute which will close the popover when clicking outside the element
 [data-trigger="hover"]      If you want the popover to be displayed when you move the mouse pointer over the element
+
+
+.toast      Временно появляющаяся подсказка. Also you need add a little jQuery code.
+    .toast-header>content
+        strong.mr-auto>content      (optional) use this if you want add button for close the .toast
+        small.text-muted>content    (optional) use this if you want add button for close the .toast
+        button.ml-2.mb-1.close      (optional) [type='button'] use this if you want add button for close the .toast
+    .toast-body>content
+    $(document).ready(function(){
+        $('.toast').toast('show');
+    });
+[data-autohide='false'] (optional) Make .toast visible always until you click on button
+
+
+https://www.w3schools.com/bootstrap4/bootstrap_scrollspy.asp  Scrollspy
+
+
+.border             Add border to any element
+.border-0           Add this class to .border for remove borders
+.border-top-0       Add this class to .border for remove top border   
+.border-right-0     Add this class to .border for remove right border
+.border-bottom-0    Add this class to .border for remove bottom border
+.border-left-0      Add this class to .border for remove left border
+.border-primary     Set color
+.border-secondary   Set color
+.border-success     Set color
+.border-danger      Set color
+.border-warning     Set color
+.border-info        Set color
+.border-light       Set color
+.border-dark        Set color
+.border-white       Set color
+.rounded            Make element rounded (medium). No need use .border class
+.rounded-sm         Make element rounded (small). No need use .border class
+.rounded-lg         Make element rounded (large). No need use .border class
+.rounded-top        Make element rounded (top). No need use .border class
+.rounded-right      Make element rounded (right). No need use .border class
+.rounded-bottom     Make element rounded (bottom). No need use .border class
+.rounded-left       Make element rounded (left). No need use .border class
+.rounded-circle     Make element circle. No need use .border class
+.rounded-0          Remove border-radius. No need use .border class
+
+
+.clearfix           float: clear;
+.float-right
+.float-left
+.float-*-right      sm|md|lg|xl
+.float-*-left       sm|md|lg|xl
+.float-none
+
