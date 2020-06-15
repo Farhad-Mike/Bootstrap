@@ -11,23 +11,111 @@
 .col-lg-    (large devices - screen width equal to or greater than 992px)
 .col-xl-    (xlarge devices - screen width equal to or greater than 1200px)
 
-.pt-3       padding-top
-.pr-3       padding-right
-.pb-3       padding-bottom
-.pl-3       padding-left
-.p-3        padding
+.pt-*       padding-top     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.pr-*       padding-right   0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.pb-*       padding-bottom  0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.pl-*       padding-left    0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.p-*        padding         0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.px-*       0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.py-*       0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.pt-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.pr-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.pb-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.pl-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.px-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.py-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative) 
 
-.mt-3       margin-top
-.mr-3       margin-right
-.mb-3       margin-bottom
-.ml-3       margin-left
-.m-3        margin
-.mx-auto    (margin:auto)
-.my-auto    (margin:auto)
-.mt-*-3     sm|md|lg|xl
-.mr-*-3     sm|md|lg|xl
-.mb-*-3     sm|md|lg|xl
-.ml-*-3     sm|md|lg|xl
+.mt-*       margin-top      0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.mr-*       margin-right    0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.mb-*       margin-bottom   0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.ml-*       margin-left     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.m-*        margin          0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.mx-*       (margin:auto)   0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.my-*       (margin:auto)   0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.mt-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.mr-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.mb-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.ml-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.mx-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+.my-*-*     sm|md|lg|xl     0|1|2|3|4|5|auto    n1|n2|n3|n4|n5 (n == negative)
+
+.w-25       width 25%
+.w-50       width 50%
+.w-75       width 75%
+.w-100      width 100%
+.wm-100     max-width 100%
+
+.h-25       height 25%
+.h-50       height 50%
+.h-75       height 75%
+.h-100      height 100%
+.hm-100     max-height 100%
+
+.d-block        display: block;
+.d-inline
+.d-none
+.d-inline-block
+.d-table
+.d-table-cell
+.d-table-row
+.d-flex
+.d-inline-flex
+.d-*-*          sm|md|lg|xl
+
+.flex-row               Add to .d-flex for make horizontally flex elements
+.flex-*-row             sm|md|lg|xl
+.flex-*-row-reverse     sm|md|lg|xl
+.flex-column
+.flex-column-reverse
+.flex-*-column          sm|md|lg|xl
+.flex-*-column-reverse  sm|md|lg|xl
+.justify-content-*                      start|center|end|between|around
+.justify-content-*-*    sm|md|lg|xl     start|center|end|between|around
+.flex-fill              Add the class to flex item elements for make equal width between elements
+.flex-*-fill            sm|md|lg|xl
+.flex-grow-1            Add to element
+.flex-shrink-1          Add to element
+.flex-*-grow-1          sm|md|lg|xl
+.flex-*-shrink-1        sm|md|lg|xl
+.order-*                Add to element 0-12
+.flex-wrap
+.flex-wrap-reverse
+.flex-nowrap
+.flex-*-wrap            sm|md|lg|xl
+.flex-*-wrap-reverse    sm|md|lg|xl
+.flex-*-nowrap          sm|md|lg|xl
+.align-content-*        start|center|end|between|around|stretch
+.align-items-*          start|center|end|baseline|stretch
+.align-self-*
+.align-content-*-*      sm|md|lg|xl  start|center|end|between|around|stretch
+.align-items-*-*        sm|md|lg|xl  start|center|end|baseline|stretch
+.align-self-*-*         sm|md|lg|xl  start|center|end|baseline|stretch
+
+.shadow-none    remove shadow from element     
+.shadow-sm      add small shadow to element 
+.shadow         add medium shadow to element     
+.shadow-lg      add large shadow to element 
+
+.align-baseline     vertical-align
+.align-top          vertical-align
+.align-middle       vertical-align
+.align-bottom       vertical-align
+.align-text-top     vertical-align
+.align-text-bottom  vertical-align
+
+.embed-responsive.embed-responsive-*by*     <div> Set aspect ratio for <iframe>, slideshow, <video> 
+    .embed-responsive-item                  <iframe>, slideshow, <video>
+
+.visible        visibility: visible
+.invisible      visibility: hidden
+
+.fixed-top      Make element fixed on top
+.fixed-bottom   Make element fixed on bottom
+.sticky-top     Make any element fixed/stay at the top of the page when you scroll past it
+
+button.close[type='button']>&times;    Create close icon
+
+.sr-only        Hide element for all devices. Only screen reader can read it.
 
 <h1>
 <h2>
@@ -106,6 +194,8 @@
 .text-light             белый(каплю темный)
 .text-white             белый
 .text-body-50           на .5 прозрачный
+.text-white-50          Make white text opacity .5
+.text-black-50          Make black text opacity .5
 
 .bg-primary             светло-синий
 .bg-success             светло-зеленый
@@ -516,3 +606,13 @@ https://www.w3schools.com/bootstrap4/bootstrap_scrollspy.asp  Scrollspy
 .float-*-left       sm|md|lg|xl
 .float-none
 
+
+ICONs <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+.fas    <i> or <span>
+    .fa-cloud
+    .fa-car
+    and so on
+
+
+BS4 Media Object https://www.w3schools.com/bootstrap4/bootstrap_media_objects.asp
+BS4 Filters https://www.w3schools.com/bootstrap4/bootstrap_filters.asp
