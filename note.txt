@@ -616,3 +616,6 @@ ICONs <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/c
 
 BS4 Media Object https://www.w3schools.com/bootstrap4/bootstrap_media_objects.asp
 BS4 Filters https://www.w3schools.com/bootstrap4/bootstrap_filters.asp
+
+
+Все -webkit- -moz- -o- прописывай в самом конце
