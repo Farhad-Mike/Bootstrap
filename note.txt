@@ -440,7 +440,7 @@ button.close[type='button']>&times;    Create close icon
 .navbar-toggler[collapse][#id]  <button data-toggler='' data-target=''> button for show or hide collapsed menu (use inside <nav>)
     .navbar-toggler-icon        <span> 
 .collapse.navbar-collapse       <div> cover for <ul>, for collapse 
-.navbar-text class to vertical align any elements inside the navbar that are not links
+.navbar-text        class to vertical align any elements inside the navbar that are not links
 
 .form-inline                    <form>
     .form-control               <input> if you have .input-group, then the element should be inside .input-group
